@@ -1,0 +1,82 @@
+{
+  "name": "gulp-combo",
+  "version": "4.2.0",
+  "description": "A javascript, stylesheet and webcomponent combo plugin for Gulp, i.e. combo file references into your index.html",
+  "keywords": [
+    "gulpplugin",
+    "combo",
+    "stylesheets",
+    "webcomponents",
+    "scripts",
+    "index"
+  ],
+  "homepage": "https://github.com/klei/gulp-combo",
+  "bugs": {
+    "url": "https://github.com/klei/gulp-combo/issues"
+  },
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@klei.se",
+    "url": "http://joakim.beng.se"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/klei/gulp-combo.git"
+  },
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "mocha -R spec src/**/*_test.js",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "gutil": "^1.6.4",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT",
+  "xo": {
+    "space": true,
+    "envs": [
+      "node"
+    ],
+    "rules": {
+      "object-shorthand": [
+        2,
+        "never"
+      ]
+    }
+  },
+  "gitHead": "c978fd7494c9f005040340555a41b081e4081655",
+  "_id": "gulp-combo@4.2.0",
+  "_shasum": "5d6af52f24963aa0de22993dec846e1e792ab653",
+  "_from": "gulp-combo@*",
+  "_npmVersion": "3.10.7",
+  "_nodeVersion": "6.4.0",
+  "_npmUser": {
+    "name": "joakimbeng",
+    "email": "joakim@beng.se"
+  },
+  "dist": {
+    "shasum": "5d6af52f24963aa0de22993dec846e1e792ab653",
+    "tarball": "https://registry.npmjs.org/gulp-combo/-/gulp-combo-4.2.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "joakimbeng",
+      "email": "joakim@klei.se"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/gulp-combo-4.2.0.tgz_1482261376351_0.40899496898055077"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/gulp-combo/-/gulp-combo-4.2.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
