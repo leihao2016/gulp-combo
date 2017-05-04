@@ -53,3 +53,21 @@ gulp.task('tpl', function () {
 		.pipe(gulp.dest(TPL_DEST));
 });
 ```
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My index</title>
+  <!-- combo:css -->
+  <link rel="stylesheet" href="??/src/a.css,/src/b.css" />
+  <!-- endcombo -->
+</head>
+<body>
+
+  <!-- combo:js -->
+  <link rel="stylesheet" href="??/src/a.js,/src/b.js" />
+  <!-- endcombo -->
+</body>
+</html>
+```
